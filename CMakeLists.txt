@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Footstep.msg"
   "msg/Footsteps.msg"
   "msg/Goalposition.msg"
-  "msg/Point2.msg")
+  "msg/Point2.msg"
+  "msg/Obstacle.msg")
 
 ament_package()
