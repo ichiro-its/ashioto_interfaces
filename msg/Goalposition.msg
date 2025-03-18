@@ -1,1 +1,2 @@
 Point2 goal_position
+float64 orientation
