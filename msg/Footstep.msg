@@ -1,3 +1,3 @@
 Point2 position
-float64 orientation
+float64 yaw
 string support_foot
