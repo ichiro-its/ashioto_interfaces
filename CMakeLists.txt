@@ -17,10 +17,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Footstep.msg"
-  "msg/Footsteps.msg"
-  "msg/Goalposition.msg"
-  "msg/Point2.msg"
-  "msg/Obstacle.msg")
+  "msg/Action.msg"
+  "msg/FootstepOutput.msg"
+  "msg/Obstacle.msg"
+  "msg/SupportState.msg"
+  "msg/TargetState.msg")
 
 ament_package()
