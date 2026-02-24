@@ -8,11 +8,10 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Action.msg"
-  "msg/FootstepOutput.msg"
+  "msg/Footsteps.msg"
   "msg/Obstacle.msg"
-  "msg/SupportState.msg"
-  "msg/TargetState.msg"
+  "msg/Point2.msg"
+  "msg/Point3.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 ament_export_dependencies(rosidl_default_runtime)
